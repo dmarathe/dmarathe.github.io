@@ -1,0 +1,57 @@
+@mixin background-size($per){
+		-webkit-background-size: $per;
+	    -moz-background-size: $per;
+	    -o-background-size: $per;
+	    background-size: $per;
+}
+
+@mixin transition($duration){
+	-webkit-transition: $duration;
+	-moz-transition: $duration;
+	-o-transition: $duration;
+	transition: $duration;
+}
+
+@mixin transform($duration){
+	-webkit-transform: $duration;
+	-moz-transform: $duration;
+	-ms-transform: $duration;
+	-o-transform: $duration;
+}
+
+html, body {
+	color: #434242;
+	font-family: 'Open Sans', sans-serif !important;
+	height: 100%;
+}
+body { background: #434242; font-size: 15px; line-height: 1.64; color: white}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+	font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px;
+}
+h1,h4 {
+	font-weight: 700; margin-bottom: 10px;
+}
+h2,h3 {
+	font-weight: 300; color: #F9098B;
+}
+h2 {
+	font-size: 54px; text-align: center;
+}
+h3 {
+	font-size: 28px;
+}
+
+.background-white {
+	background: white;
+	color: black;
+	min-height:100%;
+}
+
+.background-gray {
+	background: #434242;
+	color: white;
+	min-height:100%;
+}
+
+.btn-primary { background-color: #F9098B; color:white; }
